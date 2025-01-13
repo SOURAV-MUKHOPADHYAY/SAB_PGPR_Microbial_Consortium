@@ -11,10 +11,7 @@ Gene expression data, represented as log-fold changes, for a selected set of gen
 - **Visualization:** Normalized gene expression values on day 18 were visualized in separate chord diagrams for the `W` and `NW` groups, highlighting the presence or absence of WRKY33 as a transcription factor.
 
 ## Machine Learning Analysis
-Machine learning techniques were employed to predict the impact of transcription factors on gene expression on day 18. Linear models were avoided due to assumption violations, as noted in:
-- Li et al., 2019
-- Meyer et al., 2023
-
+Machine learning techniques were employed to predict the impact of transcription factors on gene expression on day 18. Linear models were avoided due to assumption violations:
 ### Methodology:
 - **Models Used:** Random Forest and XGBoost were applied for modeling.
 - **Feature Importance:**
